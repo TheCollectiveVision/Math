@@ -1,3 +1,19 @@
+def solve_quadratic(a, b, c):
+    """Return the real roots of ``ax^2 + bx + c = 0``.
+
+    If the discriminant is negative, ``(None, None)`` is returned.
+    ``ValueError`` is raised when ``a`` is zero.
+    """
+    if a == 0:
+        raise ValueError("Coefficient 'a' cannot be zero for a quadratic equation.")
+    discriminant = b ** 2 - 4 * a * c
+    if discriminant < 0:
+        return None, None
+    root1 = (-b + discriminant ** 0.5) / (2 * a)
+    root2 = (-b - discriminant ** 0.5) / (2 * a)
+    return root1, root2
+
+
 def main():
     print("Welcome to the Quadratic Formula Solver!")
     print("This program will help you find the roots of a quadratic equation of the form ax^2 + bx + c = 0.")
@@ -5,23 +21,20 @@ def main():
     a = float(input("Enter the coefficient x^2: "))
     b = float(input("Enter the coefficient x: "))
     c = float(input("Enter the constant term: "))
-    if a == 0:
-        print("Coefficient 'a' cannot be zero for a quadratic equation.")
+    try:
+        root1, root2 = solve_quadratic(a, b, c)
+    except ValueError as exc:
+        print(str(exc))
         return
-    discriminant = b**2 - 4*a*c
-    if discriminant < 0:
+
+    if root1 is None:
         print("The equation has no real roots.")
-    elif discriminant == 0:
-        root = -b / (2 * a)
-        print(f"The equation has one real root: {root}")
-    elif discriminant > 0:
-        root1 = (-b + discriminant**0.5) / (2 * a)
-        root2 = (-b - discriminant**0.5) / (2 * a)
-        print(f"The equation has two real roots: {root1} and {root2}") 
-    
-    solution1 = (-b + discriminant**0.5) / (2 * a) if discriminant >= 0 else None
-    solution2 = (-b - discriminant**0.5) / (2 * a) if discriminant >= 0 else None
-    print(f"Solutions: {solution1}, {solution2}")
+    elif root1 == root2:
+        print(f"The equation has one real root: {root1}")
+    else:
+        print(f"The equation has two real roots: {root1} and {root2}")
+
+    print(f"Solutions: {root1}, {root2}")
 
 if __name__ == "__main__":
-    main()    
+    main()
