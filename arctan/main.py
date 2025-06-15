@@ -15,7 +15,7 @@ class ArctanCalculator:
         term = Decimal(1) / Decimal(x)  # First term of the series
         n = 0
 
-        while term > Decimal(10) ** (-self.precision):
+        while abs(term) > Decimal(10) ** (-self.precision):
             arctan_value += term / (2 * n + 1)
             n += 1
             term *= -Decimal(1) / (x * x)
