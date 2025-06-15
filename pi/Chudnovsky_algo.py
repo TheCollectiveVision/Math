@@ -1,6 +1,6 @@
-#calculating pi using Chudnovski algorithm
+# Chudnovsky algorithm.
 from decimal import Decimal, getcontext
-def calculate_pi_chudnovski(precision):
+def calculate_pi_chudnovsky(precision):
     getcontext().prec = precision + 2  # Set precision for Decimal calculations
     C = 426880 * Decimal(10005).sqrt()
     K = Decimal(6)
@@ -20,5 +20,5 @@ def calculate_pi_chudnovski(precision):
     return str(pi)[:precision + 2]  # Return pi as a string with the desired precision
 if __name__ == "__main__":
     precision = int(input("Enter the number of decimal places for pi: "))
-    pi_value = calculate_pi_chudnovski(precision)
+    pi_value = calculate_pi_chudnovsky(precision)
     print(f"Calculated value of pi to {precision} decimal places: {pi_value}")
