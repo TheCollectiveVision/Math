@@ -16,6 +16,8 @@ class ArctanCalculator:
         n = 0
 
         while abs(term) > Decimal(10) ** (-self.precision):
+            # Using abs() ensures the loop stops once the term's magnitude
+            # drops below the desired precision even if the term is negative.
             arctan_value += term / (2 * n + 1)
             n += 1
             term *= -Decimal(1) / (x * x)
