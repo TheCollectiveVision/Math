@@ -1,4 +1,4 @@
-#class to calculate the arctangent of (1/x)
+#class to calculate the arctangent of (1/x) in radians with a specified precision
 from decimal import Decimal, getcontext
 class ArctanCalculator:
     def __init__(self, precision):
