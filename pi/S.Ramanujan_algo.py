@@ -31,8 +31,3 @@ if __name__ == "__main__":
     print(f"Approximation of pi using {terms} terms: {format_str.format(pi_value)}")
     print(f"Actual value of pi: {format_str.format(math.pi)}")
     print(f"Difference: {format_str.format(abs(pi_value - math.pi))}")
-
-# This script calculates the value of pi using Ramanujan's formula and compares it with the actual value of pi.
-# The more terms you use, the more accurate the approximation will be.
-# The script prints the approximation of pi, the actual value of pi, and the difference between them.
-# Note: The Ramanujan formula converges very quickly, so even a small number of terms gives a very accurate result.

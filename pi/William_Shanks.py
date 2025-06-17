@@ -27,7 +27,3 @@ if __name__ == "__main__":
     precision = int(input("Enter the number of decimal places for pi: "))
     pi_value = calculate_pi(precision)
     print(f"Calculated value of pi to {precision} decimal places: {pi_value}")
-# This code calculates the value of pi using William Shanks' formula with a specified precision.
-# It uses the ArctanCalculator class to compute the arctangent values needed for the formula.
-# The precision is set using the Decimal module to ensure accurate calculations.
-# The result is printed to the console with the specified number of decimal places.
