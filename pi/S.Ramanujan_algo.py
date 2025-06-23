@@ -1,7 +1,7 @@
 #Calculating the value of pi using Ramanujan's formula to a specific degree of accuracy.
 # This script uses Ramanujan's series to approximate the value of pi.
 import math
-def ramanujan_pi(terms=10):
+def ramanujan_pi(terms):
     """
     Calculate pi using Ramanujan's formula.
     
