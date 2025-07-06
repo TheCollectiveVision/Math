@@ -82,18 +82,6 @@ Use this checklist-based roadmap to track progress as you expand each section of
 - [ ] `Finance/` — *(empty)* ➤ Add compound interest, annuities, risk models
 - [ ] `Engineering/` — *(empty)* ➤ Add stress-strain, circuits, thermodynamics
 
----
-
-## ✅ Support Files
-
-- [x] `Tests/`
-  - [x] `test_quadratic.py` — add more test files per module
-- [ ] `Resources/` — *(empty)* ➤ Add book links, video playlists, papers
-- [ ] `LaTeX_Templates/` — *(empty)* ➤ Add common equation and document templates
-- [ ] `Docs/` — *(empty)* ➤ Add `CONTRIBUTING.md`, roadmap, goals
-
----
-
 ## 🔁 How to Use This Roadmap
 
 - Check off tasks as you implement or update each section
