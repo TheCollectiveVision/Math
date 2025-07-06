@@ -1,6 +1,6 @@
 #calculating the value of pi using William Shanks' formula
 from decimal import Decimal, getcontext
-from arctan import ArctanCalculator 
+from Geometry.Trigonometry.arctan import ArctanCalculator 
 # William Shanks' formula for calculating pi: pi/4 = 1587 * arctan(1/2852) + 295 * arctan(1/4193) 
 #                                                   + 593 * arctan(1/4246) + 359 * arctan(39307) 
 #                                                   + 481 * arctan(1/55603) + 625 * arctan(1/211050) 
