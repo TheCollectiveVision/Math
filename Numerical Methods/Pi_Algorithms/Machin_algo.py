@@ -1,7 +1,7 @@
 #calculating the value of pi using Machin's formula
 from decimal import getcontext
-#Arctan calculator class imported using Taylor series
-from arctan_calculator import ArctanCalculator 
+# Import ArctanCalculator class from the arctan module
+from Geometry.Trigonometry.arctan import ArctanCalculator
 # Machin's formula for calculating pi: pi/4 = 4 * arctan(1/5) - arctan(1/239)
 
 def calculate_pi(precision):
