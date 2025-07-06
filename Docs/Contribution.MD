@@ -9,7 +9,7 @@ Use this checklist-based roadmap to track progress as you expand each section of
 - [x] `Polynomials/`
   - [x] `cubic_formula/` — contains `main.py`
   - [x] `quadratic_formula/` — contains `main.py`
-- [ ] `Linear_Equations/` — *(empty)* ➤ Add systems of linear equations solvers
+- [x] `Linear_Equations/` — *(empty)* ➤ Add systems of linear equations solvers
 - [ ] `Abstract_Algebra_Intro/` — *(empty)* ➤ Add groups, rings, fields basics
 
 ---
