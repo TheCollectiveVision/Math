@@ -19,6 +19,8 @@ Use this checklist-based roadmap to track progress as you expand each section of
 
 - [ ] `Limits/` — *(empty)* ➤ Add limit evaluation techniques
 - [ ] `Differentiation/` — *(empty)* ➤ Add rules, symbolic and numeric derivatives
+  - [x] `simple_diffrentiation/`
+  - [x] `simple_diffrentiation_for_function_more_than_two_terms/`
 - [ ] `Integration/` — *(empty)* ➤ Add definite, indefinite integrals
 - [ ] `Multivariable_Calculus/` — *(empty)* ➤ Add gradients, partial derivatives
 
@@ -41,6 +43,7 @@ Use this checklist-based roadmap to track progress as you expand each section of
 - [ ] `Euclidean_Geometry/` — *(empty)* ➤ Add area/volume formulas, theorems
 - [ ] `Analytic_Geometry/` — *(empty)* ➤ Add line, conic sections, distance formulas
 - [ ] `Trigonometry/` — *(empty)* ➤ Add sine/cosine rule, identities, graphs
+  - [x] `arctan/`
 
 ---
 
