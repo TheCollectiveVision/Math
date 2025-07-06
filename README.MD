@@ -1,4 +1,4 @@
-# 🗺️ Math Repository Expansion Roadmap
+# Math Repository Expansion Roadmap
 
 Use this checklist-based roadmap to track progress as you expand each section of your mathematics repository.
 
@@ -6,10 +6,11 @@ Use this checklist-based roadmap to track progress as you expand each section of
 
 ## ✅ Algebra
 
-- [x] `Polynomials/`
-  - [x] `cubic_formula/` — contains `main.py`
-  - [x] `quadratic_formula/` — contains `main.py`
-- [x] `Linear_Equations/` — *(empty)* ➤ Add systems of linear equations solvers
+- [] `Polynomials/`
+  - [x] `cubic_formula/`
+  - [x] `quadratic_formula/`
+- [x] `Linear_Equations/`
+  - [x] `linear_eqn_solver`
 - [ ] `Abstract_Algebra_Intro/` — *(empty)* ➤ Add groups, rings, fields basics
 
 ---
@@ -26,7 +27,7 @@ Use this checklist-based roadmap to track progress as you expand each section of
 ## ✅ Discrete Math
 
 - [x] `Combinatorics/`
-  - [x] `pascals_triangle/` — contains `pascale-triangle.py`
+  - [x]  `pascale-triangle.py`
 - [x] `Number_Theory/`
   - [x] `partitions/` — contains `main.py`
 - [ ] `Set_Theory/` — *(empty)* ➤ Add union, intersection, power set
