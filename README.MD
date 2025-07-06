@@ -29,9 +29,9 @@ Use this checklist-based roadmap to track progress as you expand each section of
 ## ✅ Discrete Math
 
 - [x] `Combinatorics/`
-  - [x]  `pascale-triangle.py`
+  - [x]  `pascale-triangle`
 - [x] `Number_Theory/`
-  - [x] `partitions/` — contains `main.py`
+  - [x] `partitions/`
 - [ ] `Set_Theory/` — *(empty)* ➤ Add union, intersection, power set
 - [ ] `Logic/` — *(empty)* ➤ Add truth tables, propositional logic
 - [ ] `Graph_Theory/` — *(empty)* ➤ Add basic graph structures and algorithms
@@ -41,6 +41,12 @@ Use this checklist-based roadmap to track progress as you expand each section of
 ## ✅ Geometry
 
 - [ ] `Euclidean_Geometry/` — *(empty)* ➤ Add area/volume formulas, theorems
+  - [x] Area
+    - [x] `square`
+    - [x] `rectangle`
+    - [x] `triangle`
+    - [x] `circle`
+    - [x] `polygon_of_n_sides`
 - [ ] `Analytic_Geometry/` — *(empty)* ➤ Add line, conic sections, distance formulas
 - [ ] `Trigonometry/` — *(empty)* ➤ Add sine/cosine rule, identities, graphs
   - [x] `arctan/`
@@ -58,13 +64,11 @@ Use this checklist-based roadmap to track progress as you expand each section of
 ## ✅ Numerical Methods
 
 - [x] `Pi_Algorithms/`
-  - [x] Contains:
-    - `Chudnovsky_algo.py`
-    - `Machin_algo.py`
-    - `Nilakanths_algo.py`
-    - `S.Ramanujan_algo.py`
-    - `William_Shanks.py`
-  - [ ] Supporting module: `arctan.py` — decide exact placement
+  - [x] `Chudnovsky_algo.py`
+  - [x] `Machin_algo.py`
+  - [x] `Nilakanths_algo.py`
+  - [x] `S.Ramanujan_algo.py`
+  - [x] `William_Shanks.py`
 - [ ] `Root_Finding/` — *(empty)* ➤ Add bisection, Newton-Raphson
 - [ ] `Integration/` — *(empty)* ➤ Add Simpson’s rule, trapezoidal rule
 - [ ] `Optimization/` — *(empty)* ➤ Add gradient descent, extrema finding
@@ -83,7 +87,9 @@ Use this checklist-based roadmap to track progress as you expand each section of
 
 - [ ] `Physics/` — *(empty)* ➤ Add motion, force, energy equations
 - [ ] `Computer_Science/` — *(empty)* ➤ Add logic gates, complexity, encoding
-- [ ] `Finance/` — *(empty)* ➤ Add compound interest, annuities, risk models
+- [ ] `Finance/` —  ➤ , annuities, risk models
+  - [x] `simple_intrest`
+  - [x] `compund_intrest`
 - [ ] `Engineering/` — *(empty)* ➤ Add stress-strain, circuits, thermodynamics
 
 ## 🔁 How to Use This Roadmap
