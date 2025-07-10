@@ -1,32 +1,34 @@
-# Simple Differentiation of a Polynomial with Two or More Terms
+# Class for Simple Differentiation of a Polynomial with Two or More Terms
 
-terms = int(input("Enter the number of terms in the polynomial: "))
+class Polynomial:
+    def __init__(self):
+        self.terms = int(input("Enter the number of terms in the polynomial: "))
+        self.coefficients = []
+        self.powers = []
 
-coefficients = []
-powers = []
+    def input_terms(self):
+        for i in range(self.terms):
+            coeff = float(input(f"Enter coefficient for term {i+1}: "))
+            power = float(input(f"Enter power for term {i+1}: "))
+            self.coefficients.append(coeff)
+            self.powers.append(power)
 
-for i in range(terms):
-    coeff = int(input(f"Enter coefficient for term {i+1}: "))
-    power = int(input(f"Enter power for term {i+1}: "))
-    coefficients.append(coeff)
-    powers.append(power)
+    def differentiate(self):
+        print("The derivative is:")
+        for i in range(self.terms):
+            if self.powers[i] == 0:
+                continue
+            coeff, power = self.coefficients[i] * self.powers[i], self.powers[i] - 1
+            if i == 0:
+                print(f"{coeff}x^{power}", end="")
+            else:
+                print(f" + {coeff}x^{power}", end="")
 
-
-print("The polynomial is:")
-for i in range(terms):
-    if i == 0:
-        print(f"{coefficients[i]}x^{powers[i]}", end="")
-    else:
-        print(f" + {coefficients[i]}x^{powers[i]}", end="")
-print()
-
-print("The derivative is:")
-for i in range(terms):
-    if powers[i] == 0:
-        continue
-    coeff, power = coefficients[i] * powers[i], powers[i] - 1
-    if i == 0:
-        print(f"{coeff}x^{power}", end="")
-    else:
-        print(f" + {coeff}x^{power}", end="")
-print()
+    def main(self):
+        self.input_terms()
+        self.differentiate()
+        print()
+        
+if __name__ == "__main__":
+    poly = Polynomial()
+    poly.main()
