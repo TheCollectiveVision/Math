@@ -13,7 +13,6 @@ def solve_quadratic(a, b, c):
     root2 = (-b - discriminant ** 0.5) / (2 * a)
     return root1, root2
 
-
 def main():
     print("Welcome to the Quadratic Formula Solver!")
     print("This program will help you find the roots of a quadratic equation of the form ax^2 + bx + c = 0.")
