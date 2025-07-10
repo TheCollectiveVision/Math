@@ -1,6 +1,6 @@
 #Chain Rule Differentiation
 # This code implements the chain rule for differentiation, which is used when differentiating composite functions.
-# Function is the form y = f(x) * g(x), where f and g are polynomials.
+# Function is the form y = f(x) * g(x), where f and g are polynomials where the power of the function is 1 and the degree is more than 1.
 
 from simple_diffrentiation_function_2terms_or_more import Polynomial
 
