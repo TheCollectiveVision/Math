@@ -1,63 +1,123 @@
-# Math Repository Expansion Roadmap
+# 📘 Math Repository Expansion Roadmap
 
-Use this checklist-based roadmap to track progress as you expand each section of your mathematics repository.
+Use this checklist-based roadmap to track the development of each section in your math repository.  
+✅ = Implemented in Python   = Will be implemented in LaTeX  
+  = Planned file/module, not started yet
 
 ---
 
 ## ✅ Algebra
 
-- [] `Polynomials/`
-  - [x] `cubic_formula/`
-  - [x] `quadratic_formula/`
+- [x] `Polynomials/`
+  - [x] `cubic_formula/main.py`
+  - [x] `quadratic_formula/main.py`
+  - [ ] `factor_theorem.py`
+  - [ ] `remainder_theorem.py`
 - [x] `Linear_Equations/`
-  - [x] `linear_eqn_solver`
-- [ ] `Abstract_Algebra_Intro/` — *(empty)* ➤ Add groups, rings, fields basics
+  - [x] `linear_eqn_solver.py`
+  - [ ] `matrix_method_solver.py`
+- [ ] `Abstract_Algebra_Intro/`
+  - [ ] `group_axioms.tex`
+  - [ ] `ring_field_comparison.tex`
 
 ---
 
 ## ✅ Calculus
 
-- [ ] `Limits/` — *(empty)* ➤ Add limit evaluation techniques
-- [ ] `Differentiation/` — *(empty)* ➤ Add rules, symbolic and numeric derivatives
-  - [x] `simple_diffrentiation/`
-  - [x] `simple_diffrentiation_for_function_more_than_two_terms/`
-- [ ] `Integration/` — *(empty)* ➤ Add definite, indefinite integrals
-- [ ] `Multivariable_Calculus/` — *(empty)* ➤ Add gradients, partial derivatives
+- [ ] `Limits/`
+  - [ ] `evaluate_limit_rational.py`
+  - [ ] `limit_infinity_cases.py`
+- [ ] `Differentiation/`
+  - [x] `simple_diffrentiation.py`
+  - [x] `simple_diffrentiation_for_function_more_than_two_terms.py`
+  - [ ] `product_rule.py`
+  - [ ] `chain_rule.py`
+  - [ ] `quotient_rule.py`
+  - [ ] `second_derivatives.py`
+- [ ] `Integration/`
+  - [ ] `indefinite_integral_basic.py`
+  - [ ] `definite_integral_area.py`
+  - [ ] `integration_by_parts.tex`
+- [ ] `Multivariable_Calculus/`
+  - [ ] `partial_derivatives.py`
+  - [ ] `gradient_vector.py`
+  - [ ] `jacobian.tex`
 
 ---
 
 ## ✅ Discrete Math
 
 - [x] `Combinatorics/`
-  - [x]  `pascale-triangle`
-- [x] `Number_Theory/`
-  - [x] `partitions/`
-- [ ] `Set_Theory/` — *(empty)* ➤ Add union, intersection, power set
-- [ ] `Logic/` — *(empty)* ➤ Add truth tables, propositional logic
-- [ ] `Graph_Theory/` — *(empty)* ➤ Add basic graph structures and algorithms
+  - [x] `pascale_triangle/pascale_triangle.py`
+  - [x] `combination.py`
+  - [x] `binomial_theorem_general_term.py`
+  - [ ] `permutation.py`
+- [ ] `Number_Theory/`
+  - [x] `partitions/main.py`
+  - [ ] `gcd_lcm.py`
+  - [ ] `mod_arithmetic.py`
+- [ ] `Set_Theory/`
+  - [ ] `union_intersection.py`
+  - [ ] `venn_diagram.tex`
+- [ ] `Logic/`
+  - [ ] `truth_table_generator.py`
+  - [ ] `logical_equivalence_checker.py`
+- [ ] `Graph_Theory/`
+  - [ ] `adjacency_matrix.py`
+  - [ ] `bfs_dfs.py`
+  - [ ] `shortest_path_dijkstra.py`
 
 ---
 
 ## ✅ Geometry
 
-- [ ] `Euclidean_Geometry/` — *(empty)* ➤ Add area/volume formulas, theorems
-  - [x] Area
-    - [x] `square`
-    - [x] `rectangle`
-    - [x] `triangle`
-    - [x] `circle`
-    - [x] `polygon_of_n_sides`
-- [ ] `Analytic_Geometry/` — *(empty)* ➤ Add line, conic sections, distance formulas
-- [ ] `Trigonometry/` — *(empty)* ➤ Add sine/cosine rule, identities, graphs
-  - [x] `arctan/`
+- [ ] `Euclidean_Geometry/`
+  - [x] `Area/`
+    - [x] `square.py`
+    - [x] `rectangle.py`
+    - [x] `triangle.py`
+    - [x] `heron's_formula.py`
+    - [x] `circle.py`
+    - [x] `polygon_of_n_sides.py`
+  - [ ] `volume_cube_sphere_cylinder.py`
+- [ ] `Analytic_Geometry/`
+  - [ ] `distance_formula.py`
+  - [ ] `midpoint_formula.py`
+  - [ ] `line_equations/`
+    - [ ] `slope.py`
+    - [ ] `line_from_points.py`
+    - [ ] `intersection.py`
+  - [ ] `conic_sections/`
+    - [ ] `circle.py`
+    - [ ] `parabola.py`
+    - [ ] `ellipse.py`
+    - [ ] `hyperbola.py`
+  - [ ] `transformations/`
+    - [ ] `translate.py`
+    - [ ] `reflect.py`
+    - [ ] `rotate.py`
+  - [ ] `area_collinearity.py`
+- [ ] `Trigonometry/`
+  - [x] `arctan/arctan.py`
+  - [ ] `sine_cosine_rule.py`
+  - [ ] `trig_graphs.tex` 
 
 ---
 
 ## ✅ Linear Algebra
 
-- [ ] `Vectors/` — *(empty)* ➤ Add magnitude, dot/cross product
-- [ ] `Matrices/` — *(empty)* ➤ Add operations, inverse, determinant
-- [ ] `Transformations/` — *(empty)* ➤ Add linear transformations, eigen basics
+- [ ] `Vectors/`
+  - [ ] `magnitude.py`
+  - [ ] `dot_product.py`
+  - [ ] `cross_product.py`
+- [ ] `Matrices/`
+  - [ ] `matrix_addition.py`
+  - [ ] `matrix_multiplication.py`
+  - [ ] `matrix_inverse.py`
+  - [ ] `determinant.py`
+- [ ] `Transformations/`
+  - [ ] `linear_transformation.tex`
+  - [ ] `eigenvectors_eigenvalues.tex`
 
 ---
 
@@ -69,35 +129,49 @@ Use this checklist-based roadmap to track progress as you expand each section of
   - [x] `Nilakanths_algo.py`
   - [x] `S.Ramanujan_algo.py`
   - [x] `William_Shanks.py`
-- [ ] `Root_Finding/` — *(empty)* ➤ Add bisection, Newton-Raphson
-- [ ] `Integration/` — *(empty)* ➤ Add Simpson’s rule, trapezoidal rule
-- [ ] `Optimization/` — *(empty)* ➤ Add gradient descent, extrema finding
+- [ ] `Root_Finding/`
+  - [ ] `bisection_method.py`
+  - [ ] `newton_raphson.py`
+- [ ] `Integration/`
+  - [ ] `trapezoidal_rule.py`
+  - [ ] `simpson_rule.py`
+- [ ] `Optimization/`
+  - [ ] `gradient_descent.py`
+  - [ ] `extrema_finder.py`
 
 ---
 
 ## ✅ Probability and Statistics
 
-- [ ] `Probability_Axioms/` — *(empty)* ➤ Add foundational rules of probability
-- [ ] `Distributions/` — *(empty)* ➤ Add binomial, normal, Poisson
-- [ ] `Descriptive_Statistics/` — *(empty)* ➤ Add mean, variance, std deviation
+- [ ] `Probability_Axioms/`
+  - [ ] `addition_rule.py`
+  - [ ] `conditional_probability.py`
+- [ ] `Distributions/`
+  - [ ] `binomial_distribution.py`
+  - [ ] `normal_distribution.py`
+  - [ ] `poisson_distribution.py`
+- [ ] `Descriptive_Statistics/`
+  - [ ] `mean_median_mode.py`
+  - [ ] `variance_std_dev.py`
+  - [ ] `five_number_summary.py`
 
 ---
 
 ## ✅ Applied Math
 
-- [ ] `Physics/` — *(empty)* ➤ Add motion, force, energy equations
-- [ ] `Computer_Science/` — *(empty)* ➤ Add logic gates, complexity, encoding
-- [ ] `Finance/` —  ➤ , annuities, risk models
-  - [x] `simple_intrest`
-  - [x] `compund_intrest`
-- [ ] `Engineering/` — *(empty)* ➤ Add stress-strain, circuits, thermodynamics
-
-## 🔁 How to Use This Roadmap
-
-- Check off tasks as you implement or update each section
-- Use GitHub Issues or Projects to turn checklist items into issues/milestones
-- Document each module and ensure it’s tested before marking it complete
-
----
-
-🧠 *Tip: Use this roadmap directly in your `CONTRIBUTING.md` or link it from `README.md` for clarity.*
+- [ ] `Physics/`
+  - [ ] `kinematics_solver.py`
+  - [ ] `newton_laws_force.py`
+  - [ ] `work_energy_power.py`
+- [ ] `Computer_Science/`
+  - [ ] `binary_logic.py`
+  - [ ] `truth_table_generator.py`
+  - [ ] `boolean_simplifier.py`
+- [ ] `Finance/`
+  - [x] `simple_intrest.py`
+  - [x] `compund_intrest.py`
+  - [ ] `annuities.py`
+- [ ] `Engineering/`
+  - [ ] `stress_strain_curve.tex` 
+  - [ ] `basic_circuits.py`
+  - [ ] `thermal_conduction.tex` 
