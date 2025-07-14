@@ -47,7 +47,7 @@ Use this checklist-based roadmap to track the development of each section in you
 
 ## ✅ Discrete Math
 
-- [x] `Combinatorics/`
+- [ ] `Combinatorics/`
   - [x] `pascale_triangle/pascale_triangle.py`
   - [x] `combination.py`
   - [x] `binomial_theorem_general_term.py`
@@ -79,7 +79,18 @@ Use this checklist-based roadmap to track the development of each section in you
     - [x] `heron's_formula.py`
     - [x] `circle.py`
     - [x] `polygon_of_n_sides.py`
-  - [ ] `volume_cube_sphere_cylinder.py`
+  - [ ] `Volume/`
+    - [ ] `cylinder.py`
+    - [ ] `cone.py`
+    - [ ] `sphere.py`
+    - [ ] `prism.py`
+    - [ ] `cuboid.py`
+  - [ ] `Pythagorean_Theorem/`
+    - [ ] `pythagorean_theorem.py`
+  - [ ] `Congruence/`
+    - [ ] `congruence_theorems.tex`
+  - [ ] `Similarity/`
+    - [ ] `similarity_theorems.tex`
 - [ ] `Analytic_Geometry/`
   - [ ] `distance_formula.py`
   - [ ] `midpoint_formula.py`
