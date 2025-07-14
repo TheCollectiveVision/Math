@@ -1,14 +1,19 @@
-# Simple intrest calculator
+# Simple interest calculator
 
-def main():
-    principal_amount = print(float(input("Enter your principal amount ($): ")))
-    intrest_rate = print(float(input("Enter the intrest rate (%): ")))
-    time = print(float(input("Enter the time applied: ")))
-    
-    intrest = (principal_amount * intrest_rate * time) / 100
-    total_amount = principal_amount + intrest
-    
-    print(f"Total amount after {time} at {intrest_rate}% simple intrest is ${total_amount} ")
-    
+class SimpleInterestCalculator:
+
+    def main():
+        principal_amount = float(input("Enter your principal amount ($): "))
+        interest_rate = float(input("Enter the interest rate (%): "))
+        time = float(input("Enter the time applied: "))
+        if principal_amount < 0 or interest_rate < 0 or time < 0:
+            raise ValueError("Principal amount, interest rate, and time must be non-negative.")
+        # Calculate simple interest
+        interest = (principal_amount * interest_rate * time) / 100
+        # Calculate total amount after interest
+        total_amount = principal_amount + interest
+        print(f"The simple interest is: ${interest:.2f}")
+        print(f"Total amount after {time} at {interest_rate}% simple interest is ${total_amount} ")
+
 if __name__ == "__main__":
-    main()
+    SimpleInterestCalculator.main()
