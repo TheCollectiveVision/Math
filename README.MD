@@ -1,8 +1,8 @@
 # 📘 Math Repository Expansion Roadmap
+# Contributers: Arjun Dev Jha(Owner of repository, me)
+#               Aarav Rastogi(Joined 9 July 2025)
 
 Use this checklist-based roadmap to track the development of each section in your math repository.  
-✅ = Implemented in Python   = Will be implemented in LaTeX  
-  = Planned file/module, not started yet
 
 ---
 
