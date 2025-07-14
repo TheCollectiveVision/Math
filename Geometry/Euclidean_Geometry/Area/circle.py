@@ -1,25 +1,27 @@
 #area of circle
 import math
 
-def area_of_circle(radius):
-    """
-    Calculate the area of a circle given its radius.
+class Circle:
 
-    Parameters:
-    radius (float): The radius of the circle.
+    def area_of_circle(radius):
+        """
+        Calculate the area of a circle given its radius.
 
-    Returns:
-    float: The area of the circle.
-    """
-    if radius < 0:
-        raise ValueError("Radius cannot be negative.")
-    
-    return math.pi * (radius ** 2)
+        Parameters:
+        radius (float): The radius of the circle.
+
+        Returns:
+        float: The area of the circle.
+        """
+        if radius < 0:
+            raise ValueError("Radius cannot be negative.")
+        
+        return math.pi * (radius ** 2)
 
 if __name__ == "__main__":
     try:
         radius = float(input("Enter the radius of the circle: "))
-        area = area_of_circle(radius)
+        area = Circle.area_of_circle(radius)
         print(f"The area of the circle with radius {radius} is {area}.")
     except ValueError as e:
         print(f"Error: {e}")
