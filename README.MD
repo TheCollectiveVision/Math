@@ -28,8 +28,7 @@ Use this checklist-based roadmap to track the development of each section in you
   - [ ] `evaluate_limit_rational.py`
   - [ ] `limit_infinity_cases.py`
 - [ ] `Differentiation/`
-  - [x] `simple_diffrentiation.py`
-  - [x] `simple_diffrentiation_for_function_more_than_two_terms.py`
+  - [x] `simple_diffrentiation_for_function.py`
   - [ ] `product_rule.py`
   - [ ] `chain_rule.py`
   - [ ] `quotient_rule.py`
