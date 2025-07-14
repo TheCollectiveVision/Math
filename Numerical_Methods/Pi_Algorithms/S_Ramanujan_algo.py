@@ -1,51 +1,53 @@
 import decimal
 
-def calculate_pi_ramanujan(num_decimal_places, num_terms):
-    """
-    Calculates the value of pi using S. Ramanujan's formula.
+class S_Ramanujan_algo:
 
-    The formula is:
-    1/pi = (2*sqrt(2)/9801) * sum_{k=0 to infinity} ( (4k)! * (1103 + 26390k) ) / ( (k!)^4 * 396^(4k) )
+    def calculate_pi_ramanujan(num_decimal_places, num_terms):
+        """
+        Calculates the value of pi using S. Ramanujan's formula.
 
-    Args:
-        num_decimal_places (int): The desired number of decimal places for pi.
-        num_terms (int): The number of terms to use in the series summation.
+        The formula is:
+        1/pi = (2*sqrt(2)/9801) * sum_{k=0 to infinity} ( (4k)! * (1103 + 26390k) ) / ( (k!)^4 * 396^(4k) )
 
-    Returns:
-        decimal.Decimal: The calculated value of pi.
-    """
+        Args:
+            num_decimal_places (int): The desired number of decimal places for pi.
+            num_terms (int): The number of terms to use in the series summation.
 
-    if num_decimal_places < 0:
-        raise ValueError("Number of decimal places cannot be negative.")
-    if num_terms < 1:
-        raise ValueError("Number of terms must be at least 1.")
+        Returns:
+            decimal.Decimal: The calculated value of pi.
+        """
 
-    # Set the precision for decimal calculations
-    # We need extra precision for intermediate calculations to avoid rounding errors
-    decimal.getcontext().prec = num_decimal_places + 10
+        if num_decimal_places < 0:
+            raise ValueError("Number of decimal places cannot be negative.")
+        if num_terms < 1:
+            raise ValueError("Number of terms must be at least 1.")
 
-    total_sum = decimal.Decimal(0)
-    constant = (decimal.Decimal(2) * decimal.Decimal(2).sqrt()) / decimal.Decimal(9801)
+        # Set the precision for decimal calculations
+        # We need extra precision for intermediate calculations to avoid rounding errors
+        decimal.getcontext().prec = num_decimal_places + 10
 
-    for k in range(num_terms):
-        numerator_factorial = decimal.Decimal(factorial(4 * k))
-        numerator_expression = decimal.Decimal(1103 + 26390 * k)
-        numerator = numerator_factorial * numerator_expression
+        total_sum = decimal.Decimal(0)
+        constant = (decimal.Decimal(2) * decimal.Decimal(2).sqrt()) / decimal.Decimal(9801)
 
-        denominator_factorial = (decimal.Decimal(factorial(k)))**4
-        denominator_power = decimal.Decimal(396)**(4 * k)
-        denominator = denominator_factorial * denominator_power
+        for k in range(num_terms):
+            numerator_factorial = decimal.Decimal(factorial(4 * k))
+            numerator_expression = decimal.Decimal(1103 + 26390 * k)
+            numerator = numerator_factorial * numerator_expression
 
-        term = numerator / denominator
-        total_sum += term
+            denominator_factorial = (decimal.Decimal(factorial(k)))**4
+            denominator_power = decimal.Decimal(396)**(4 * k)
+            denominator = denominator_factorial * denominator_power
 
-    # Calculate 1/pi
-    one_over_pi = constant * total_sum
+            term = numerator / denominator
+            total_sum += term
 
-    # Calculate pi
-    pi_value = decimal.Decimal(1) / one_over_pi
+        # Calculate 1/pi
+        one_over_pi = constant * total_sum
 
-    return pi_value
+        # Calculate pi
+        pi_value = decimal.Decimal(1) / one_over_pi
+
+        return pi_value
 
 def factorial(n):
     """
@@ -64,7 +66,7 @@ if __name__ == "__main__":
         decimal_places = int(input("Enter the desired number of decimal places for pi: "))
         num_terms = int(input("Enter the number of terms to use in the series: "))
 
-        pi_calculated = calculate_pi_ramanujan(decimal_places, num_terms)
+        pi_calculated = S_Ramanujan_algo.calculate_pi_ramanujan(decimal_places, num_terms)
         print(f"\nCalculated value of pi with {decimal_places} decimal places using {num_terms} terms:")
         print(pi_calculated)
 
