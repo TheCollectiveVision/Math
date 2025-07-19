@@ -108,7 +108,15 @@ Use this checklist-based roadmap to track the development of each section in you
     - [ ] `rotate.py`
   - [ ] `area_collinearity.py`
 - [ ] `Trigonometry/`
-  - [x] `arctan/arctan.py`
+  - [ ] `sin.py`
+  - [ ] `cose.py`
+  - [ ] `tan.py`
+  - [ ] `cot.py`
+  - [ ] `sec.py`
+  - [ ] `cosec.py`
+  - [ ] `arcsin.py`
+  - [ ] `arccos.py`
+  - [x] `arctan.py`
   - [ ] `sine_cosine_rule.py`
   - [ ] `trig_graphs.tex` 
 
