@@ -78,12 +78,12 @@ Use this checklist-based roadmap to track the development of each section in you
     - [x] `heron's_formula.py`
     - [x] `circle.py`
     - [x] `polygon_of_n_sides.py`
-  - [ ] `Volume/`
-    - [ ] `cylinder.py`
-    - [ ] `cone.py`
-    - [ ] `sphere.py`
-    - [ ] `prism.py`
-    - [ ] `cuboid.py`
+  - [x] `Volume/`
+    - [x] `cylinder.py`
+    - [x] `cone.py`
+    - [x] `sphere.py`
+    - [x] `prism.py`
+    - [x] `cuboid.py`
   - [x] `pythagorean_theorem.py`
   - [ ] `Congruence/`
     - [ ] `congruence_theorems.tex`
