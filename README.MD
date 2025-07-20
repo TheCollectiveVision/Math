@@ -1,6 +1,6 @@
 # 📘 Math Repository Expansion Roadmap
-# Contributers: Arjun Dev Jha(Owner of repository, me)
-#               Aarav Rastogi(Joined 9 July 2025)
+## Contributors: Arjun Dev Jha(Owner of repository, me)
+##               Aarav Rastogi(Joined 9 July 2025)
 
 Use this checklist-based roadmap to track the development of each section in your math repository.  
 
@@ -46,11 +46,11 @@ Use this checklist-based roadmap to track the development of each section in you
 
 ## ✅ Discrete Math
 
-- [ ] `Combinatorics/`
+- [x] `Combinatorics/`
   - [x] `pascale_triangle/pascale_triangle.py`
   - [x] `combination.py`
   - [x] `binomial_theorem_general_term.py`
-  - [ ] `permutation.py`
+  - [x] `permutation.py`
 - [ ] `Number_Theory/`
   - [x] `partitions/main.py`
   - [ ] `gcd_lcm.py`
@@ -84,19 +84,18 @@ Use this checklist-based roadmap to track the development of each section in you
     - [ ] `sphere.py`
     - [ ] `prism.py`
     - [ ] `cuboid.py`
-  - [ ] `Pythagorean_Theorem/`
-    - [ ] `pythagorean_theorem.py`
+  - [x] `pythagorean_theorem.py`
   - [ ] `Congruence/`
     - [ ] `congruence_theorems.tex`
   - [ ] `Similarity/`
     - [ ] `similarity_theorems.tex`
 - [ ] `Analytic_Geometry/`
-  - [ ] `distance_formula.py`
-  - [ ] `midpoint_formula.py`
-  - [ ] `line_equations/`
-    - [ ] `slope.py`
-    - [ ] `line_from_points.py`
-    - [ ] `intersection.py`
+  - [x] `distance_formula.py`
+  - [x] `midpoint_formula.py`
+  - [x] `line_equations/`
+    - [x] `slope.py`
+    - [x] `line_from_points.py`
+    - [x] `intersection.py`
   - [ ] `conic_sections/`
     - [ ] `circle.py`
     - [ ] `parabola.py`
@@ -169,7 +168,9 @@ Use this checklist-based roadmap to track the development of each section in you
   - [ ] `normal_distribution.py`
   - [ ] `poisson_distribution.py`
 - [ ] `Descriptive_Statistics/`
-  - [ ] `mean_median_mode.py`
+  - [ ] `mean.py`
+  - [ ] `median.py`
+  - [ ] `mode.py`
   - [ ] `variance_std_dev.py`
   - [ ] `five_number_summary.py`
 
