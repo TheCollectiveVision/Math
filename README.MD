@@ -85,10 +85,8 @@ Use this checklist-based roadmap to track the development of each section in you
     - [x] `prism.py`
     - [x] `cuboid.py`
   - [x] `pythagorean_theorem.py`
-  - [ ] `Congruence/`
-    - [ ] `congruence_theorems.tex`
-  - [ ] `Similarity/`
-    - [ ] `similarity_theorems.tex`
+  - [ ] `congruence_theorems.tex`
+  - [ ] `similarity_theorems.tex`
 - [ ] `Analytic_Geometry/`
   - [x] `distance_formula.py`
   - [x] `midpoint_formula.py`
