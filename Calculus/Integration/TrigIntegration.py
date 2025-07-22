@@ -34,7 +34,6 @@ def TrigoIntergration(countT,func, coeff, funclist, coeffA):
         
 
 if __name__ == "__Main__":
-    count = 'a'
     coefflist = []
     powerlist = []
     coeff = 'a'
