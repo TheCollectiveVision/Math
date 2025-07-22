@@ -52,8 +52,10 @@ Use this checklist-based roadmap to track the development of each section in you
   - [x] `binomial_theorem_general_term.py`
   - [x] `permutation.py`
 - [ ] `Number_Theory/`
-  - [x] `partitions/main.py`
-  - [ ] `gcd_lcm.py`
+  - [x] `partitions.py`
+  - [x] `prime_factorization.py`
+  - [ ] `gcd.py`
+  - [ ] `lcm.py`
   - [ ] `mod_arithmetic.py`
 - [ ] `Set_Theory/`
   - [ ] `union_intersection.py`
