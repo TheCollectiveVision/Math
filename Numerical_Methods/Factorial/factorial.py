@@ -1,5 +1,9 @@
-def factorial(self, num):
-        if num == 0:
-            return 1
-        else:
-            return num * self.factorial(num-1)
+
+def factorial(num):
+    result = 1
+    if num == 0:
+        return 1
+    else:
+        for idx in range(1,num +1):
+            result = idx*result 
+    return result
