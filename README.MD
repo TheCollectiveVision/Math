@@ -34,7 +34,8 @@ Use this checklist-based roadmap to track the development of each section in you
   - [ ] `quotient_rule.py`
   - [ ] `second_derivatives.py`
 - [ ] `Integration/`
-  - [ ] `indefinite_integral_basic.py`
+  - [x] `indefinite_integral_basic.py`
+  - [x] `trigonometric_integral.py`
   - [ ] `definite_integral_area.py`
   - [ ] `integration_by_parts.tex`
 - [ ] `Multivariable_Calculus/`
@@ -107,7 +108,7 @@ Use this checklist-based roadmap to track the development of each section in you
     - [ ] `rotate.py`
   - [ ] `area_collinearity.py`
 - [ ] `Trigonometry/`
-  - [ ] `sin.py`
+  - [x] `sin.py`
   - [ ] `cose.py`
   - [ ] `tan.py`
   - [ ] `cot.py`
@@ -155,6 +156,8 @@ Use this checklist-based roadmap to track the development of each section in you
 - [ ] `Optimization/`
   - [ ] `gradient_descent.py`
   - [ ] `extrema_finder.py`
+- [x] `Factorial`
+  - [x] `factorial.py`
 
 ---
 
