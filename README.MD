@@ -9,10 +9,11 @@ Use this checklist-based roadmap to track the development of each section in you
 ## ✅ Algebra
 
 - [x] `Polynomials/`
-  - [x] `cubic_formula/main.py`
-  - [x] `quadratic_formula/main.py`
-  - [ ] `factor_theorem.py`
-  - [ ] `remainder_theorem.py`
+  - [x] `polynomial.py`
+  - [x] `cubic_formula.py`
+  - [x] `quadratic_formula.py`
+  - [x] `factor_theorem.py`
+  - [x] `remainder_theorem.py`
 - [x] `Linear_Equations/`
   - [x] `linear_eqn_solver.py`
   - [ ] `matrix_method_solver.py`

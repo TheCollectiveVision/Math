@@ -1,34 +1,26 @@
 # Class for Simple Differentiation of a Polynomial with Two or More Terms
+import sys
+sys.path.append('../..')
+from Algebra.Polynomials.polynomial import Polynomial
 
-class Polynomial:
+class SimpleDifferentiation:
     def __init__(self):
-        self.terms = int(input("Enter the number of terms in the polynomial: "))
-        self.coefficients = []
-        self.powers = []
-
-    def input_terms(self):
-        for i in range(self.terms):
-            coeff = float(input(f"Enter coefficient for term {i+1}: "))
-            power = float(input(f"Enter power for term {i+1}: "))
-            self.coefficients.append(coeff)
-            self.powers.append(power)
+        self.poly = Polynomial()
+        self.poly.polynomial()
+        self.poly.input_terms()
 
     def differentiate(self):
         print("The derivative is:")
-        for i in range(self.terms):
-            if self.powers[i] == 0:
+        for i in range(self.poly.terms):
+            if self.poly.powers[i] == 0:
                 continue
-            coeff, power = self.coefficients[i] * self.powers[i], self.powers[i] - 1
+            coeff, power = self.poly.coefficients[i] * self.poly.powers[i], self.poly.powers[i] - 1
             if i == 0:
                 print(f"{coeff}x^{power}", end="")
             else:
                 print(f" + {coeff}x^{power}", end="")
-
-    def main(self):
-        self.input_terms()
-        self.differentiate()
         print()
-        
+
 if __name__ == "__main__":
-    poly = Polynomial()
-    poly.main()
+    differentiation = SimpleDifferentiation()
+    differentiation.differentiate()
