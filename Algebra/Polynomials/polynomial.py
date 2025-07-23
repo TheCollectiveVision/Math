@@ -1,4 +1,4 @@
-#Class to input a polynnomial
+#Class to input a polynomial
 
 class Polynomial:
 

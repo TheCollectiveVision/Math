@@ -30,9 +30,9 @@ Use this checklist-based roadmap to track the development of each section in you
   - [ ] `limit_infinity_cases.py`
 - [ ] `Differentiation/`
   - [x] `simple_diffrentiation_for_function.py`
-  - [ ] `product_rule.py`
-  - [ ] `chain_rule.py`
-  - [ ] `quotient_rule.py`
+  - [x] `product_rule.py`
+  - [x] `chain_rule.py`
+  - [x] `quotient_rule.py`
   - [ ] `second_derivatives.py`
 - [ ] `Integration/`
   - [x] `indefinite_integral_basic.py`
