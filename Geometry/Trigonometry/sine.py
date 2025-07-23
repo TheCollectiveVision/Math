@@ -1,5 +1,5 @@
 import sys as s
-s.append("../..")
+s.path.append("../..")
 from Numerical_Methods.Factorial.factorial import factorial
 
 
