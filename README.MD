@@ -110,11 +110,11 @@ Use this checklist-based roadmap to track the development of each section in you
   - [ ] `area_collinearity.py`
 - [ ] `Trigonometry/`
   - [x] `sin.py`
-  - [ ] `cose.py`
-  - [ ] `tan.py`
+  - [x] `cose.py`
+  - [x] `tan.py`
   - [ ] `cot.py`
-  - [ ] `sec.py`
-  - [ ] `cosec.py`
+  - [x] `sec.py`
+  - [x] `cosec.py`
   - [ ] `arcsin.py`
   - [ ] `arccos.py`
   - [x] `arctan.py`
