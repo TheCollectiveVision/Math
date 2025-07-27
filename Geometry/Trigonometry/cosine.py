@@ -1,7 +1,7 @@
 import sys as s
 s.path.append("../..")
 from Numerical_Methods.Factorial.factorial import factorial
-from Numerical_Methods.Pi_Algorithms.Machin_algo import MachinAlgorithm
+from Numerical_Methods.Constants.Pi_Algorithms.Machin_algo import MachinAlgorithm
 
 def Cosine(radians):
     cos = 1
