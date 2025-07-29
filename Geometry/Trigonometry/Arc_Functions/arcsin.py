@@ -13,7 +13,6 @@ def ArcSin(sin):
         if sin - Sine(radians) < 0.01:
             return degree
 
-
 if __name__ == "__main__":
     sin = int(input("Please input value of sin: "))
     degree = ArcSin(sin)
