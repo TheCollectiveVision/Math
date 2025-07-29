@@ -23,9 +23,7 @@ if __name__ == "__main__":
     if choice == 1:
     for idx in (2):
       degree = int(input("Please input angle  in degrees: "))
-      CosineRuleLength()
-  
-        
+      CosineRuleLength()  
     elif choice == 2:
       CosineRuleAngle()
     precision = 10
