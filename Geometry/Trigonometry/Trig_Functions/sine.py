@@ -18,7 +18,7 @@ def Sine(radians):
 
 if __name__ == "__main__":
     precision = 10
-    degree = int(input("Please input angle in degrees: "))
+    degree = float(input("Please input angle in degrees: "))
     radians = degree/180 * float(MachinAlgorithm.calculate_pi(precision))
     sine = Sine(radians)
     print(f'The value of sine is {sine:.2f}')

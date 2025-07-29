@@ -18,7 +18,7 @@ def Cosine(radians):
 
 if __name__ == "__main__":
     precision = 10
-    degree = int(input("Please input angle in degrees: "))
+    degree = float(input("Please input angle in degrees: "))
     radians = degree/180 * float(MachinAlgorithm.calculate_pi(precision))
     cos = Cosine(radians)
     print(f'The value of cosine is {cos:.2f}')
