@@ -1,9 +1,9 @@
 #calculating the value of pi using Machin's formula
 from decimal import getcontext
 import sys
-sys.path.append('../..')  # Adjust the path to import from the correct directory
+sys.path.append('../../..')  # Adjust the path to import from the correct directory
 # Import ArctanCalculator class from the arctan module
-from Geometry.Trigonometry.arctan import ArctanCalculator
+from Geometry.Trigonometry.Arc_Functions.arctan import ArctanCalculator
 # Machin's formula for calculating pi: pi/4 = 4 * arctan(1/5) - arctan(1/239)
 class MachinAlgorithm:
 
