@@ -7,3 +7,7 @@ def factorial(num):
         for idx in range(1,num +1):
             result = idx*result 
     return result
+
+if __name__ == "__main__":
+    num = int(input("Enter a number to calculate its factorial: "))
+    print(f"The factorial of {num} is: {factorial(num)}")
