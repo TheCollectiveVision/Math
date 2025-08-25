@@ -13,7 +13,7 @@ class Sphere:
         if radius < 0:
             raise ValueError("Radius cannot be negative.")
 
-        return (4/3) * Circle.volume_of_circle(radius)
+        return (4/3) * Sphere.volume_of_circle(radius)
 
 if __name__ == "__main__":
     try:
