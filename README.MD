@@ -1,8 +1,19 @@
-# 📘 Math Repository Expansion Roadmap
-## Contributors: Arjun Dev Jha(Owner of repository, me)
-##               Aarav Rastogi(Joined 9 July 2025)
+# 📘 Math Repository
 
-Use this checklist-based roadmap to track the development of each section in your math repository.  
+This repository contains a growing collection of mathematics-related Python
+scripts and \LaTeX{} notes. Content is organized by topic so you can easily
+explore concepts or add new material.
+
+## Contributors
+- **Arjun Dev Jha** – Owner of repository
+- **Aarav Rastogi** – Joined 9 July 2025
+
+---
+
+## Expansion Roadmap
+
+Use this checklist-based roadmap to track the development of each section in
+the repository.
 
 ---
 
@@ -195,6 +206,14 @@ Use this checklist-based roadmap to track the development of each section in you
   - [x] `compund_intrest.py`
   - [ ] `annuities.py`
 - [ ] `Engineering/`
-  - [ ] `stress_strain_curve.tex` 
+  - [ ] `stress_strain_curve.tex`
   - [ ] `basic_circuits.py`
-  - [ ] `thermal_conduction.tex` 
+  - [ ] `thermal_conduction.tex`
+
+---
+
+## Contributing
+
+Contributions are welcome! If you'd like to add an example or improve an
+existing script, please open a pull request. See the roadmap above for areas
+that still need work.
