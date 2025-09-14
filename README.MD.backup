@@ -15,7 +15,7 @@ Use this checklist-based roadmap to track the development of each section in you
   - [x] `factor_theorem.py`
   - [x] `remainder_theorem.py`
 - [x] `Linear_Equations/`
-  - [x] `eqn_from_2_points.py`
+  - [x] `linear_eqn_solver.py`
   - [ ] `matrix_method_solver.py`
 - [ ] `Abstract_Algebra_Intro/`
   - [ ] `group_axioms.tex`
@@ -28,15 +28,15 @@ Use this checklist-based roadmap to track the development of each section in you
 - [ ] `Limits/`
   - [ ] `evaluate_limit_rational.py`
   - [ ] `limit_infinity_cases.py`
-- [x] `Differentiation/`
-  - [x] `simple_diffrentiation_function.py`
+- [ ] `Differentiation/`
+  - [x] `simple_diffrentiation_for_function.py`
   - [x] `product_rule.py`
   - [x] `chain_rule.py`
   - [x] `quotient_rule.py`
-  - [x] `second_derivatives.py`
-- [x] `Integration/`
-  - [x] `NumIntegration.py`
-  - [x] `TrigIntegration.py`
+  - [ ] `second_derivatives.py`
+- [ ] `Integration/`
+  - [x] `indefinite_integral_basic.py`
+  - [x] `trigonometric_integral.py`
   - [ ] `definite_integral_area.py`
   - [ ] `integration_by_parts.tex`
 - [ ] `Multivariable_Calculus/`
@@ -49,16 +49,13 @@ Use this checklist-based roadmap to track the development of each section in you
 ## ✅ Discrete Math
 
 - [x] `Combinatorics/`
-  - [x] `pascals_triangle.py`
+  - [x] `pascale_triangle/pascale_triangle.py`
   - [x] `combination.py`
-  - [x] `permutation.py`
-  - [x] `binomial_theorem.py`
   - [x] `binomial_theorem_general_term.py`
-  - [x] `trinomial_theorem.py`
-  - [x] `trinomial_theorem_general_term.py`
-- [x] `Number_Theory/`
+  - [x] `permutation.py`
+- [ ] `Number_Theory/`
   - [x] `partitions.py`
-  - [x] `prime_factorisation.py`
+  - [x] `prime_factorization.py`
   - [ ] `gcd.py`
   - [ ] `lcm.py`
   - [ ] `mod_arithmetic.py`
@@ -77,12 +74,12 @@ Use this checklist-based roadmap to track the development of each section in you
 
 ## ✅ Geometry
 
-- [x] `Euclidean_Geometry/`
+- [ ] `Euclidean_Geometry/`
   - [x] `Area/`
     - [x] `square.py`
     - [x] `rectangle.py`
     - [x] `triangle.py`
-    - [x] `heron's_area_of_triangle_formula.py`
+    - [x] `heron's_formula.py`
     - [x] `circle.py`
     - [x] `polygon_of_n_sides.py`
   - [x] `Volume/`
@@ -91,10 +88,10 @@ Use this checklist-based roadmap to track the development of each section in you
     - [x] `sphere.py`
     - [x] `prism.py`
     - [x] `cuboid.py`
-  - [x] `pythagoras_theorem.py`
+  - [x] `pythagorean_theorem.py`
   - [ ] `congruence_theorems.tex`
   - [ ] `similarity_theorems.tex`
-- [x] `Analytic_Geometry/`
+- [ ] `Analytic_Geometry/`
   - [x] `distance_formula.py`
   - [x] `midpoint_formula.py`
   - [x] `line_equations/`
@@ -111,20 +108,16 @@ Use this checklist-based roadmap to track the development of each section in you
     - [ ] `reflect.py`
     - [ ] `rotate.py`
   - [ ] `area_collinearity.py`
-- [x] `Trigonometry/`
-  - [x] `Trig_Functions/`
-    - [x] `sine.py`
-    - [x] `cosine.py`
-    - [x] `tan.py`
-    - [x] `cosecant.py`
-    - [x] `secant.py`
-  - [x] `Arc_Functions/`
-    - [x] `arcsin.py`
-    - [x] `arctan.py`
-  - [x] `Formulas/`
-    - [x] `cosine_rule.py`
+- [ ] `Trigonometry/`
+  - [x] `sin.py`
+  - [x] `cose.py`
+  - [x] `tan.py`
   - [ ] `cot.py`
+  - [x] `sec.py`
+  - [x] `cosec.py`
+  - [ ] `arcsin.py`
   - [ ] `arccos.py`
+  - [x] `arctan.py`
   - [ ] `sine_cosine_rule.py`
   - [ ] `trig_graphs.tex` 
 
@@ -149,29 +142,23 @@ Use this checklist-based roadmap to track the development of each section in you
 
 ## ✅ Numerical Methods
 
-- [x] `Constants/`
-  - [x] `Eulers_number.py`
-  - [x] `Pi_Algorithms/`
-    - [x] `Chudnovsky_algo.py`
-    - [x] `Machin_algo.py`
-    - [x] `Nilakanths_algo.py`
-    - [x] `S_Ramanujan_algo.py`
-    - [x] `William_Shanks.py`
+- [x] `Pi_Algorithms/`
+  - [x] `Chudnovsky_algo.py`
+  - [x] `Machin_algo.py`
+  - [x] `Nilakanths_algo.py`
+  - [x] `S.Ramanujan_algo.py`
+  - [x] `William_Shanks.py`
 - [ ] `Root_Finding/`
   - [ ] `bisection_method.py`
   - [ ] `newton_raphson.py`
 - [ ] `Integration/`
   - [ ] `trapezoidal_rule.py`
   - [ ] `simpson_rule.py`
-- [ ] `Optimisation/`
+- [ ] `Optimization/`
   - [ ] `gradient_descent.py`
   - [ ] `extrema_finder.py`
-- [x] `Functions/`
-  - [x] `Factorial/`
-    - [x] `factorial.py`
-  - [ ] `hexation/`
-  - [ ] `square_root/`
-  - [ ] `tetration/`
+- [x] `Factorial`
+  - [x] `factorial.py`
 
 ---
 
@@ -184,10 +171,10 @@ Use this checklist-based roadmap to track the development of each section in you
   - [ ] `binomial_distribution.py`
   - [ ] `normal_distribution.py`
   - [ ] `poisson_distribution.py`
-- [x] `Descriptive_Statistics/`
-  - [x] `mean.py`
-  - [x] `median.py`
-  - [x] `mode.py`
+- [ ] `Descriptive_Statistics/`
+  - [ ] `mean.py`
+  - [ ] `median.py`
+  - [ ] `mode.py`
   - [ ] `variance_std_dev.py`
   - [ ] `five_number_summary.py`
 
@@ -203,9 +190,9 @@ Use this checklist-based roadmap to track the development of each section in you
   - [ ] `binary_logic.py`
   - [ ] `truth_table_generator.py`
   - [ ] `boolean_simplifier.py`
-- [x] `Finance/`
-  - [x] `Simple_Intrest.py`
-  - [x] `Compund_intrest.py`
+- [ ] `Finance/`
+  - [x] `simple_intrest.py`
+  - [x] `compund_intrest.py`
   - [ ] `annuities.py`
 - [ ] `Engineering/`
   - [ ] `stress_strain_curve.tex` 
